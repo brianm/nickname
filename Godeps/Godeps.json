@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/brianm/mdnsp",
+	"ImportPath": "github.com/brianm/nickname",
 	"GoVersion": "go1.6",
 	"GodepVersion": "v61",
 	"Deps": [
