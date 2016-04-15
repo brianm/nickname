@@ -53,7 +53,8 @@ func main() {
 	record := fmt.Sprintf("%s.local. 5 IN A %s", name, ip)
 	err := mdns.Publish(record)
 	if err != nil {
-		panic(err)
+		fmt.Printf("Unable to publish record '%s': %s\n", record, err)
+		os.Exit(1)
 	}
 
 	select {}
